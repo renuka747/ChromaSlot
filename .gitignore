@@ -1,0 +1,21 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# C Backend build artifacts & runtime data
+backend/build/
+backend/*.db
+backend/*.o
+backend/*.o.tmp
+backend/data/uploaded.json
+backend/tables.json
+*.dSYM/
+
+# Frontend dependencies & build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs & temporary files
+*.log
+*.tmp

@@ -1,0 +1,64 @@
+{
+  "rooms": [
+    {"id": "R101", "capacity": 80, "type": 0},
+    {"id": "R102", "capacity": 60, "type": 0},
+    {"id": "R103", "capacity": 60, "type": 0},
+    {"id": "Lab1", "capacity": 40, "type": 1},
+    {"id": "Lab2", "capacity": 40, "type": 2}
+  ],
+  "faculty": [
+    {"name": "F1", "max_consecutive": 0, "unavail_mask": 30064771075},
+    {"name": "F2", "max_consecutive": 0, "unavail_mask": 1536},
+    {"name": "F3", "max_consecutive": 2, "unavail_mask": 0},
+    {"name": "F4", "max_consecutive": 0, "unavail_mask": 2080768},
+    {"name": "F5", "max_consecutive": 0, "unavail_mask": 30301501552},
+    {"name": "F6", "max_consecutive": 0, "unavail_mask": 0},
+    {"name": "F7", "max_consecutive": 0, "unavail_mask": 0},
+    {"name": "F8", "max_consecutive": 0, "unavail_mask": 0},
+    {"name": "F9", "max_consecutive": 0, "unavail_mask": 0},
+    {"name": "F10", "max_consecutive": 0, "unavail_mask": 6291456}
+  ],
+  "divisions": [
+    {"name": "Div A", "size": 65},
+    {"name": "Div B", "size": 55}
+  ],
+  "sessions": [
+    {"id": "SOFT", "subject": "Soft Skills", "faculty": "F1", "division": "Joint", "duration": 1, "student_count": 120, "required_type": 0, "splittable": 0, "fixed_slot": 34, "joint_divisions": ["Div A", "Div B"]},
+    {"id": "A1", "subject": "S1", "faculty": "F2", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A2", "subject": "S2", "faculty": "F3", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A3", "subject": "S3", "faculty": "F4", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A4", "subject": "S4", "faculty": "F5", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A5", "subject": "S5", "faculty": "F1", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A6", "subject": "S6", "faculty": "F2", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A7", "subject": "S7", "faculty": "F3", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A8", "subject": "S8", "faculty": "F4", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A9", "subject": "S9", "faculty": "F5", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A10", "subject": "S10", "faculty": "F1", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A11", "subject": "S11", "faculty": "F2", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A12", "subject": "S12", "faculty": "F3", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A13", "subject": "S13", "faculty": "F4", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A14", "subject": "S14", "faculty": "F5", "division": "Div A", "duration": 1, "student_count": 65, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "A15_LAB", "subject": "S15 Lab", "faculty": "F6", "division": "Div A", "duration": 2, "student_count": 65, "required_type": 1, "splittable": 1, "fixed_slot": -1},
+    {"id": "A16_LAB", "subject": "S16 Lab", "faculty": "F7", "division": "Div A", "duration": 2, "student_count": 65, "required_type": 1, "splittable": 1, "fixed_slot": -1},
+    
+    {"id": "B1", "subject": "B1", "faculty": "F1", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B2", "subject": "B2", "faculty": "F2", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B3", "subject": "B3", "faculty": "F3", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B4", "subject": "B4", "faculty": "F4", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B5", "subject": "B5", "faculty": "F5", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B6", "subject": "B6", "faculty": "F1", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B7", "subject": "B7", "faculty": "F2", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B8", "subject": "B8", "faculty": "F3", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B9", "subject": "B9", "faculty": "F4", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B10", "subject": "B10", "faculty": "F5", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B11", "subject": "B11", "faculty": "F9", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B12", "subject": "B12", "faculty": "F10", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B13", "subject": "B13", "faculty": "F9", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B14", "subject": "B14", "faculty": "F10", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B15", "subject": "B15", "faculty": "F9", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B16", "subject": "B16", "faculty": "F10", "division": "Div B", "duration": 1, "student_count": 55, "required_type": 0, "splittable": 1, "fixed_slot": -1},
+    {"id": "B17_LAB", "subject": "B17 Lab", "faculty": "F6", "division": "Div B", "duration": 2, "student_count": 55, "required_type": 1, "splittable": 1, "fixed_slot": -1},
+    {"id": "B18_LAB", "subject": "B18 Lab", "faculty": "F8", "division": "Div B", "duration": 2, "student_count": 55, "required_type": 2, "splittable": 1, "fixed_slot": -1},
+    {"id": "B19_LAB", "subject": "B19 Lab", "faculty": "F8", "division": "Div B", "duration": 2, "student_count": 55, "required_type": 2, "splittable": 1, "fixed_slot": -1}
+  ]
+}

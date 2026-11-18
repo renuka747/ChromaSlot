@@ -1,0 +1,10 @@
+{
+  "description": "Optimizes and manages university timetables by detecting conflicts, handling faculty availability, and enabling complaint tracking for students, faculty, and admins.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
